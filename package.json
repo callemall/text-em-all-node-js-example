@@ -1,0 +1,26 @@
+{
+  "name": "text-em-all-node-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getAccount": "NODE_ENV=development && node account/get-account-information.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callemall/text-em-all-node-js-example.git"
+  },
+  "author": "Jason Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callemall/text-em-all-node-js-example/issues"
+  },
+  "homepage": "https://github.com/callemall/text-em-all-node-js-example#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
